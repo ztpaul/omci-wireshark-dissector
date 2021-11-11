@@ -7,4 +7,4 @@
 File -> Import from Hex Dump  
 Browse -> omci.hex  
 Encapsulation Type -> Ethernet  
-Ethernet -> Ethertype (hex): 88b5  
+Ethernet -> Ethertype (hex): 8888  
