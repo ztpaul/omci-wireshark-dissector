@@ -1,5 +1,5 @@
 # 将lua脚本导入wireshark中
-1. 将BinDecHex.lua和omci.lua拷贝到'C:\Program Files\Wireshark\plugins\'下
+将BinDecHex.lua和omci.lua拷贝到'C:\Program Files\Wireshark\plugins\'下
 
 # 生成二进制文件
 ./gen_hexdump -i [你的log文件] -o omci.hex
