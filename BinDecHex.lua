@@ -50,7 +50,8 @@
 
 --]]
 
-module("BinDecHex", package.seeall);
+local BinDecHex = {}  -- 创建模块表
+package.loaded["BinDecHex"] = BinDecHex  -- 注册到 package.loaded，允许 require 加载
 
 local hex2bin = {
 	["0"] = "0000",
